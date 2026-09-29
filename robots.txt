@@ -1,0 +1,12 @@
+# robots.txt — Plumber Pro Template
+# À PERSONNALISER : remplacez exemple-plombier.fr par le vrai domaine.
+
+User-agent: *
+Allow: /
+
+# Fichiers de documentation non destinés à l'indexation
+Disallow: /assets/screenshots/
+Disallow: /README.md
+Disallow: /LICENSE.txt
+
+Sitemap: https://www.exemple-plombier.fr/sitemap.xml

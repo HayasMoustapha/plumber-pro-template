@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sitemap.xml — Plumber Pro Template
+     À PERSONNALISER : remplacez https://www.exemple-plombier.fr par le vrai
+     domaine, et mettez à jour <lastmod> lors des modifications. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.exemple-plombier.fr/index.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.exemple-plombier.fr/services.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.exemple-plombier.fr/urgences.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.exemple-plombier.fr/devis.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.exemple-plombier.fr/contact.html</loc>
+        <lastmod>2026-09-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>

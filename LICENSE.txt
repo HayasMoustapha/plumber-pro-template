@@ -1,0 +1,110 @@
+================================================================================
+PLUMBER PRO TEMPLATE
+Licence d'utilisation — Usage personnel ou client unique
+================================================================================
+
+Version : 1.0 — Septembre 2026
+
+En téléchargeant, achetant ou utilisant « Plumber Pro Template » (le « Template »),
+vous (l'« Acheteur ») acceptez les termes de cette licence.
+
+
+--------------------------------------------------------------------------------
+1. CE QUE VOUS POUVEZ FAIRE
+--------------------------------------------------------------------------------
+
+Cette licence vous autorise à :
+
+  a) Utiliser le Template pour créer UN (1) site web :
+     - soit pour vous-même (usage personnel) ;
+     - soit pour UN (1) client final (livraison unique).
+
+  b) Modifier librement le Template : couleurs, textes, images, structure,
+     ajout ou suppression de pages et de fonctionnalités.
+
+  c) Mettre en ligne le site ainsi réalisé sur le domaine de votre choix
+     (ou celui de votre client) pour un usage commercial.
+
+
+--------------------------------------------------------------------------------
+2. CE QUE VOUS NE POUVEZ PAS FAIRE
+--------------------------------------------------------------------------------
+
+Il est strictement interdit de :
+
+  a) Revendre, sous-licencier, distribuer ou redistribuer le Template,
+     que ce soit en l'état, modifié, intégralement ou partiellement.
+
+  b) Mettre en ligne le Template (ou une version dérivée reconnaissable)
+     comme modèle, thème ou produit téléchargeable — notamment sur
+     Gumroad, Etsy, Creative Market, ThemeForest ou toute autre plateforme.
+
+  c) Partager vos identifiants ou le fichier source avec des tiers
+     non couverts par cette licence.
+
+  d) Utiliser le Template pour créer un produit concurrent destiné à
+     la vente (template, thème, kit UI, générateur de sites...).
+
+
+--------------------------------------------------------------------------------
+3. LIVRAISON À UN CLIENT (REVENTE DE SERVICE)
+--------------------------------------------------------------------------------
+
+Vous êtes autorisé à facturer à un client final le service de création du site
+réalisé à partir du Template (valeur ajoutée : personnalisation, contenu,
+hébergement, maintenance). Le Template lui-même reste soumis à cette licence :
+votre client n'acquiert AUCUN droit de revente ni de redistribution.
+
+Pour livrer le même Template à un AUTRE client, une licence supplémentaire
+doit être achetée (une licence = un projet final).
+
+
+--------------------------------------------------------------------------------
+4. CONTENU ET RESPONSABILITÉ
+--------------------------------------------------------------------------------
+
+  a) Le Template est fourni « en l'état » (AS IS), sans garantie de
+     fonctionnement adapté à un usage particulier.
+
+  b) L'Auteur ne saurait être tenu responsable de tout dommage, perte de
+     données, perte de chiffre d'affaires ou litige résultant de
+     l'utilisation du Template.
+
+  c) Les textes, noms d'entreprise, tarifs et témoignages présents dans le
+     Template sont des EXEMPLES FICTIFS à remplacer avant toute mise en
+     ligne. Vous restez seul responsable du contenu que vous publiez
+     (mentions légales, RGPD, précision des prix annoncés).
+
+  d) Le Template n'inclut pas de service d'envoi d'e-mails : le branchement
+     d'un service tiers (ex. Formspree) se fait sous votre responsabilité
+     et selon les conditions de ce service.
+
+
+--------------------------------------------------------------------------------
+5. DROITS DE PROPRIÉTÉ INTELLECTUELLE
+--------------------------------------------------------------------------------
+
+Le Template, son code source, son design et sa documentation restent la
+propriété exclusive de l'Auteur. Cette licence concède un droit d'usage ;
+elle ne transfère aucun titre de propriété.
+
+
+--------------------------------------------------------------------------------
+6. RÉSILIATION
+--------------------------------------------------------------------------------
+
+Cette licence prend automatiquement fin en cas de non-respect des clauses
+ci-dessus. L'Auteur peut alors exiger la cessation de l'utilisation et, le
+cas échéant, des dommages et intérêts.
+
+
+--------------------------------------------------------------------------------
+7. DROIT APPLICABLE
+--------------------------------------------------------------------------------
+
+La présente licence est régie par le droit français. Tout litige relève des
+tribunaux français compétents.
+
+================================================================================
+Contact pour toute question de licence : [votre-email@exemple.fr]
+================================================================================

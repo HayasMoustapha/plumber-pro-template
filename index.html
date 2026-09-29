@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="ocean">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============================================================
+         SEO LOCAL — À PERSONNALISER
+         Remplacez : nom, ville, téléphone, e-mail, URL du site.
+         ============================================================ -->
+    <title>Plomberie Dubois & Fils | Plombier à Lyon — Dépannage 24h/7j</title>
+    <meta name="description" content="Plombier à Lyon depuis 2005. Dépannage urgent 24h/24, fuite, chauffe-eau, WC bouchés. Devis gratuit sous 24h. ☎ 04 78 12 34 56">
+    <meta name="keywords" content="plombier Lyon, dépannage plomberie Lyon, fuite d'eau, chauffe-eau, plombier urgence">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.exemple-plombier.fr/index.html">
+    <meta name="geo.region" content="FR-69">
+    <meta name="geo.placename" content="Lyon">
+
+    <!-- Open Graph (partage réseaux sociaux) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Plomberie Dubois & Fils | Plombier à Lyon">
+    <meta property="og:description" content="Dépannage urgent 24h/24 à Lyon. Intervention en 30 minutes. Devis gratuit.">
+    <meta property="og:url" content="https://www.exemple-plombier.fr/index.html">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts : Inter (texte) + Poppins (titres) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Feuille de style principale -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ============================================================
+         DONNÉES STRUCTURÉES (schema.org) — clé pour le SEO local
+         À PERSONNALISER : nom, téléphone, adresse, horaires, note.
+         ============================================================ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Plomberie Dubois & Fils",
+      "description": "Plombier à Lyon : dépannage urgent 24h/24, fuite d'eau, chauffe-eau, sanitaires.",
+      "telephone": "+33478123456",
+      "email": "contact@exemple-plombier.fr",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "12 rue de la République",
+        "addressLocality": "Lyon",
+        "postalCode": "69002",
+        "addressCountry": "FR"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "€€",
+      "areaServed": "Lyon et agglomération",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Barre de progression de lecture (haut de page) -->
+    <div class="scroll-progress" aria-hidden="true"><div class="scroll-progress-bar"></div></div>
+
+    <!-- ============================================================
+         SPRITE D'ICÔNES SVG — toutes les icônes du site
+         (remplace les emojis : rendu net, colorable, cohérent)
+         ============================================================ -->
+    <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7z"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.22a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+        <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></symbol>
+        <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+        <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+        <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></symbol>
+        <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></symbol>
+        <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+        <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+        <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+        <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+        <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+        <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+        <symbol id="i-thumb" viewBox="0 0 24 24"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88z"/></symbol>
+        <symbol id="i-euro" viewBox="0 0 24 24"><path d="M4 10h12"/><path d="M4 14h9"/><path d="M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12a7.9 7.9 0 0 0 7.8 8 7.7 7.7 0 0 0 5.2-2"/></symbol>
+        <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+        <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.7s6.5 7 6.5 11.3a6.5 6.5 0 0 1-13 0C5.5 9.7 12 2.7 12 2.7z"/></symbol>
+        <symbol id="i-fire" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol>
+        <symbol id="i-bath" viewBox="0 0 24 24"><path d="M2 12h20v2a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5v-2z"/><path d="M4 12V5a2 2 0 0 1 4 0"/><path d="M7 22l-1 2M17 22l1 2"/></symbol>
+        <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+        <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></symbol>
+        <symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3z"/><path d="M12 9v4M12 17h.01"/></symbol>
+        <symbol id="i-camera" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></symbol>
+        <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    </svg>
+
+    <!-- ============================================================
+         HEADER + NAVIGATION
+         ============================================================ -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo" aria-label="Plomberie Dubois & Fils — Accueil">
+                <span class="logo-icon"><svg class="icon"><use href="#i-wrench"/></svg></span>
+                <span class="logo-text">Dubois<span class="logo-accent">&Fils</span></span>
+            </a>
+
+            <!-- Navigation desktop -->
+            <nav class="nav-menu" aria-label="Navigation principale">
+                <a href="index.html" class="nav-link active">Accueil</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="urgences.html" class="nav-link">Urgences</a>
+                <a href="devis.html" class="nav-link">Devis</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Sélecteur de thème : démonstration des 3 palettes pour le client -->
+            <div class="theme-switcher" role="group" aria-label="Choisir le thème de couleurs">
+                <button type="button" class="theme-dot active" data-theme-option="ocean" aria-label="Thème Océan (bleu/rouge)" title="Thème Océan"></button>
+                <button type="button" class="theme-dot" data-theme-option="navy" aria-label="Thème Navy (bleu nuit)" title="Thème Navy"></button>
+                <button type="button" class="theme-dot" data-theme-option="crimson" aria-label="Thème Crimson (charbon/rouge)" title="Thème Crimson"></button>
+            </div>
+
+            <!-- Téléphone direct (desktop) — À PERSONNALISER -->
+            <a href="tel:+33478123456" class="nav-phone">
+                <span class="nav-phone-icon"><svg class="icon"><use href="#i-phone"/></svg></span>
+                <span>04 78 12 34 56</span>
+            </a>
+
+            <!-- Bouton burger (mobile) -->
+            <button class="mobile-menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu mobile plein écran -->
+    <nav class="mobile-menu" aria-label="Navigation mobile">
+        <a href="index.html" class="nav-link active">Accueil</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="urgences.html" class="nav-link">Urgences</a>
+        <a href="devis.html" class="nav-link">Devis</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="tel:+33478123456" class="btn btn-secondary">
+            <svg class="icon"><use href="#i-phone"/></svg> 04 78 12 34 56
+        </a>
+    </nav>
+
+    <main>
+
+        <!-- ============================================================
+             HERO — illustration SVG intégrée + carte flottante
+             ============================================================ -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">
+                        <svg class="icon"><use href="#i-bolt"/></svg>
+                        Intervention en 30 min à Lyon
+                    </span>
+                    <h1 class="hero-title">
+                        Votre plombier de confiance à <span class="highlight">Lyon</span>, 24h/24 et 7j/7
+                    </h1>
+                    <p class="hero-subtitle">
+                        Fuite, WC bouchés, chauffe-eau en panne ? Nos artisans plombiers certifiés
+                        interviennent en moins de 30 minutes. Devis gratuit et transparent, sans surprise.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="devis.html" class="btn btn-secondary btn-lg">Devis gratuit</a>
+                        <a href="urgences.html" class="btn btn-white btn-lg">
+                            <svg class="icon"><use href="#i-alert"/></svg>
+                            Urgence 24h/24
+                        </a>
+                    </div>
+
+                    <!-- Statistiques (compteurs animés) -->
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="hero-stat-number" data-counter="2500">0</span>
+                            <span class="hero-stat-label">Interventions réalisées</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number" data-counter="30">0</span>
+                            <span class="hero-stat-label">Minutes en moyenne</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number" data-counter="19">0</span>
+                            <span class="hero-stat-label">Années d'expérience</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Illustration hero (SVG intégré, aucune image à charger) -->
+                <div class="hero-image" aria-hidden="true">
+                    <div class="hero-illustration">
+                        <svg viewBox="0 0 520 560" xmlns="http://www.w3.org/2000/svg" role="img">
+                            <!-- Fond dégradé -->
+                            <defs>
+                                <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0" stop-color="rgba(255,255,255,0.16)"/>
+                                    <stop offset="1" stop-color="rgba(255,255,255,0.04)"/>
+                                </linearGradient>
+                                <linearGradient id="hg2" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0" stop-color="#fbbf24"/>
+                                    <stop offset="1" stop-color="#f59e0b"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="520" height="560" fill="url(#hg1)"/>
+                            <!-- Goutte géante -->
+                            <path d="M260 90 C 260 90 150 230 150 320 a110 110 0 0 0 220 0 C 370 230 260 90 260 90z"
+                                  fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.35)" stroke-width="3"/>
+                            <!-- Reflet goutte -->
+                            <path d="M215 290 a46 46 0 0 0 26 44" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="6" stroke-linecap="round"/>
+                            <!-- Clé à molette -->
+                            <g transform="translate(196 300) rotate(-28) scale(3.4)">
+                                <path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7z"
+                                      fill="url(#hg2)" stroke="#b45309" stroke-width="0.8"/>
+                            </g>
+                            <!-- Petites bulles -->
+                            <circle cx="120" cy="140" r="10" fill="rgba(255,255,255,0.25)"/>
+                            <circle cx="410" cy="110" r="7" fill="rgba(255,255,255,0.2)"/>
+                            <circle cx="430" cy="420" r="12" fill="rgba(255,255,255,0.18)"/>
+                            <circle cx="90" cy="430" r="6" fill="rgba(255,255,255,0.22)"/>
+                        </svg>
+                    </div>
+
+                    <!-- Carte flottante : rapidité d'intervention -->
+                    <div class="hero-float-card">
+                        <div class="hero-float-card-icon"><svg class="icon icon-lg"><use href="#i-clock"/></svg></div>
+                        <div>
+                            <strong>30 min chrono</strong>
+                            <span>Délai moyen d'arrivée</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicateur de scroll -->
+            <a href="#services" class="hero-scroll-hint" aria-label="Faire défiler vers les services">
+                <svg class="icon icon-lg"><use href="#i-chevron-down"/></svg>
+            </a>
+        </section>
+
+        <!-- ============================================================
+             BANDEAU DE CONFIANCE (défilant)
+             ============================================================ -->
+        <div class="trust-bar" aria-hidden="true">
+            <div class="trust-track">
+                <span class="trust-item"><svg class="icon"><use href="#i-shield"/></svg> Garantie 1 an — pièces & main-d'œuvre</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-euro"/></svg> Devis gratuit sous 24h</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-award"/></svg> Artisans certifiés Qualibat</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-clock"/></svg> Permanence 24h/24 — 7j/7</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-star"/></svg> 4,9/5 — 127 avis vérifiés</span>
+                <!-- Duplication pour la boucle infinie du marquee -->
+                <span class="trust-item"><svg class="icon"><use href="#i-shield"/></svg> Garantie 1 an — pièces & main-d'œuvre</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-euro"/></svg> Devis gratuit sous 24h</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-award"/></svg> Artisans certifiés Qualibat</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-clock"/></svg> Permanence 24h/24 — 7j/7</span>
+                <span class="trust-item"><svg class="icon"><use href="#i-star"/></svg> 4,9/5 — 127 avis vérifiés</span>
+            </div>
+        </div>
+
+        <!-- ============================================================
+             SERVICES (aperçu — page complète : services.html)
+             ============================================================ -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><svg class="icon"><use href="#i-grid"/></svg> Nos services</span>
+                    <h2 class="section-title">Une expertise complète en plomberie</h2>
+                    <p class="section-subtitle">
+                        Du simple dépannage à l'installation complète, nous couvrons tous vos besoins.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card" data-animate>
+                        <div class="service-icon"><svg class="icon"><use href="#i-alert"/></svg></div>
+                        <h3 class="service-title">Dépannage urgent</h3>
+                        <p class="service-description">
+                            Fuite d'eau, canalisation bouchée, dégât des eaux : intervention rapide
+                            24h/24, week-ends et jours fériés inclus.
+                        </p>
+                        <a href="urgences.html" class="service-link">Intervention d'urgence <svg class="icon"><use href="#i-arrow-right"/></svg></a>
+                    </article>
+
+                    <article class="service-card" data-animate>
+                        <div class="service-icon"><svg class="icon"><use href="#i-fire"/></svg></div>
+                        <h3 class="service-title">Chauffe-eau & chaudière</h3>
+                        <p class="service-description">
+                            Installation, remplacement et entretien de chauffe-eau (électrique, gaz,
+                            thermodynamique) et chaudières toutes marques.
+                        </p>
+                        <a href="services.html" class="service-link">En savoir plus <svg class="icon"><use href="#i-arrow-right"/></svg></a>
+                    </article>
+
+                    <article class="service-card" data-animate>
+                        <div class="service-icon"><svg class="icon"><use href="#i-bath"/></svg></div>
+                        <h3 class="service-title">Salle de bain</h3>
+                        <p class="service-description">
+                            Rénovation complète : baignoire, douche à l'italienne, meuble vasque,
+                            robinetterie haut de gamme.
+                        </p>
+                        <a href="services.html" class="service-link">En savoir plus <svg class="icon"><use href="#i-arrow-right"/></svg></a>
+                    </article>
+                </div>
+
+                <p style="text-align: center; margin-top: var(--spacing-2xl);">
+                    <a href="services.html" class="btn btn-primary btn-lg">Voir tous nos services</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             PROCESSUS « COMMENT ÇA MARCHE »
+             ============================================================ -->
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><svg class="icon"><use href="#i-check-circle"/></svg> Simple et transparent</span>
+                    <h2 class="section-title">Comment ça se passe ?</h2>
+                    <p class="section-subtitle">Quatre étapes, zéro mauvaise surprise.</p>
+                </div>
+
+                <div class="process-grid">
+                    <div class="process-step" data-animate>
+                        <div class="process-step-number">1</div>
+                        <h3>Vous appelez</h3>
+                        <p>Décrivez le problème. Tarif annoncé immédiatement, sans engagement.</p>
+                    </div>
+                    <div class="process-step" data-animate>
+                        <div class="process-step-number">2</div>
+                        <h3>Nous arrivons</h3>
+                        <p>Technicien identifié, arrivée en 30 min en moyenne, en heure comme de nuit.</p>
+                    </div>
+                    <div class="process-step" data-animate>
+                        <div class="process-step-number">3</div>
+                        <h3>Devis sur place</h3>
+                        <p>Diagnostic complet et devis ferme validé par vous avant toute réparation.</p>
+                    </div>
+                    <div class="process-step" data-animate>
+                        <div class="process-step-number">4</div>
+                        <h3>Réparation garantie</h3>
+                        <p>Intervention propre, garantie 1 an, facture conforme au devis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             PORTFOLIO AVANT / APRÈS
+             À PERSONNALISER : remplacez les SVG par vos photos de chantier
+             (<img src="assets/img/chantier-1.jpg" alt="...">).
+             ============================================================ -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><svg class="icon"><use href="#i-camera"/></svg> Nos réalisations</span>
+                    <h2 class="section-title">Avant / Après</h2>
+                    <p class="section-subtitle">
+                        Faites glisser le curseur pour comparer nos transformations.
+                    </p>
+                </div>
+
+                <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                    <!-- Comparatif 1 : salle de bain -->
+                    <div data-animate>
+                        <div class="before-after" style="aspect-ratio: 4/3;">
+                            <!-- AVANT (couche inférieure visible à droite) -->
+                            <div class="ba-after">
+                                <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                                    <rect width="400" height="300" fill="#e8f4f8"/>
+                                    <rect x="0" y="220" width="400" height="80" fill="#cfe3ea"/>
+                                    <rect x="250" y="80" width="120" height="140" rx="8" fill="#b8d8e4"/>
+                                    <rect x="262" y="92" width="96" height="80" rx="4" fill="#8fbccb"/>
+                                    <rect x="40" y="120" width="140" height="100" rx="10" fill="#a5cddb"/>
+                                    <text x="200" y="270" text-anchor="middle" font-size="13" fill="#7ba3b3">Douche à l'italienne + meuble vasque</text>
+                                </svg>
+                            </div>
+                            <!-- APRÈS (couche glissante) -->
+                            <div class="ba-before">
+                                <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                                    <rect width="400" height="300" fill="#d9d2c7"/>
+                                    <rect x="0" y="220" width="400" height="80" fill="#b8ad9d"/>
+                                    <rect x="250" y="80" width="120" height="140" rx="8" fill="#c4b8a8"/>
+                                    <rect x="262" y="92" width="96" height="80" rx="4" fill="#a3937f"/>
+                                    <rect x="40" y="120" width="140" height="100" rx="10" fill="#b0a390"/>
+                                    <text x="200" y="270" text-anchor="middle" font-size="13" fill="#8a7c68">Ancienne salle de bain</text>
+                                </svg>
+                            </div>
+                            <span class="ba-label before">Avant</span>
+                            <span class="ba-label after">Après</span>
+                            <div class="ba-handle" role="slider" aria-label="Comparateur avant/après" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                <span class="ba-handle-btn"><svg class="icon"><use href="#i-grid"/></svg></span>
+                            </div>
+                        </div>
+                        <p class="ba-caption">Rénovation complète — Lyon 6e · 12 jours de chantier</p>
+                    </div>
+
+                    <!-- Comparatif 2 : chauffe-eau -->
+                    <div data-animate>
+                        <div class="before-after" style="aspect-ratio: 4/3;">
+                            <div class="ba-after">
+                                <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                                    <rect width="400" height="300" fill="#eef2f7"/>
+                                    <rect x="150" y="50" width="100" height="160" rx="14" fill="#dbe6f0" stroke="#b3c7d9" stroke-width="3"/>
+                                    <rect x="165" y="65" width="70" height="50" rx="6" fill="#9fc2dd"/>
+                                    <rect x="0" y="230" width="400" height="70" fill="#d5dce4"/>
+                                    <text x="200" y="272" text-anchor="middle" font-size="13" fill="#7d8fa3">Chauffe-eau thermodynamique neuf</text>
+                                </svg>
+                            </div>
+                            <div class="ba-before">
+                                <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;">
+                                    <rect width="400" height="300" fill="#e3ddd2"/>
+                                    <rect x="150" y="50" width="100" height="160" rx="14" fill="#c9bda8" stroke="#a89877" stroke-width="3"/>
+                                    <circle cx="200" cy="130" r="18" fill="#8a7a5f"/>
+                                    <rect x="0" y="230" width="400" height="70" fill="#cfc5b2"/>
+                                    <text x="200" y="272" text-anchor="middle" font-size="13" fill="#94856a">Chauffe-eau vétuste (12 ans)</text>
+                                </svg>
+                            </div>
+                            <span class="ba-label before">Avant</span>
+                            <span class="ba-label after">Après</span>
+                            <div class="ba-handle" role="slider" aria-label="Comparateur avant/après" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                                <span class="ba-handle-btn"><svg class="icon"><use href="#i-grid"/></svg></span>
+                            </div>
+                        </div>
+                        <p class="ba-caption">Remplacement chauffe-eau — Villeurbanne · 1 journée</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             BANDEAU URGENCE
+             ============================================================ -->
+        <section class="urgency-section">
+            <div class="container urgency-container">
+                <span class="urgency-badge">
+                    <svg class="icon"><use href="#i-alert"/></svg>
+                    Urgences 24h/24 — 7j/7
+                </span>
+                <h2 class="urgency-title">Une fuite ? N'attendez pas.</h2>
+                <p class="urgency-subtitle">
+                    Chaque minute compte face à une fuite d'eau. Nos techniciens sont de permanence
+                    jour et nuit sur Lyon et ses alentours.
+                </p>
+                <!-- À PERSONNALISER : numéro d'urgence -->
+                <a href="tel:+33478123456" class="urgency-phone">
+                    <span class="urgency-phone-icon"><svg class="icon"><use href="#i-phone"/></svg></span>
+                    <span>04 78 12 34 56</span>
+                </a>
+                <p style="margin-top: var(--spacing-md); opacity: 0.85; font-size: var(--text-sm);">
+                    Appel non surtaxé — Prix d'un appel local
+                </p>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             TÉMOIGNAGES (carrousel)
+             ============================================================ -->
+        <section class="section section-gray">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><svg class="icon"><use href="#i-star"/></svg> Avis clients</span>
+                    <h2 class="section-title">Ils nous font confiance</h2>
+                    <p class="section-subtitle">Note moyenne de 4,9/5 sur 127 avis vérifiés.</p>
+                </div>
+
+                <div class="testimonials-carousel" data-animate>
+                    <div class="testimonials-track-wrap">
+                        <div class="testimonials-track">
+                            <article class="testimonial-card">
+                                <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+                                    <svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    « Fuite sous l'évier un dimanche soir, technicien arrivé en 20 minutes.
+                                    Travail propre et tarif annoncé respecté. Je recommande vivement ! »
+                                </p>
+                                <div class="testimonial-author">
+                                    <span class="testimonial-avatar" aria-hidden="true">M</span>
+                                    <div>
+                                        <div class="testimonial-name">Marie L.</div>
+                                        <div class="testimonial-location">Lyon 3e</div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+                                    <svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    « Remplacement complet de notre chauffe-eau en une matinée.
+                                    Devis clair, pose impeccable, ancien appareil emporté. Parfait. »
+                                </p>
+                                <div class="testimonial-author">
+                                    <span class="testimonial-avatar" aria-hidden="true">P</span>
+                                    <div>
+                                        <div class="testimonial-name">Pierre D.</div>
+                                        <div class="testimonial-location">Villeurbanne</div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+                                    <svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    « Rénovation de notre salle de bain : résultat magnifique, dans les délais
+                                    et le budget. Une équipe à l'écoute du début à la fin. »
+                                </p>
+                                <div class="testimonial-author">
+                                    <span class="testimonial-avatar" aria-hidden="true">S</span>
+                                    <div>
+                                        <div class="testimonial-name">Sophie M.</div>
+                                        <div class="testimonial-location">Lyon 6e</div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <div class="testimonial-stars" aria-label="5 étoiles sur 5">
+                                    <svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    « WC bouchés un jour férié : appel à 9h, réparé à 10h15. Prix annoncé
+                                    au téléphone respecté au centime. Du vrai professionnel. »
+                                </p>
+                                <div class="testimonial-author">
+                                    <span class="testimonial-avatar" aria-hidden="true">A</span>
+                                    <div>
+                                        <div class="testimonial-name">Antoine R.</div>
+                                        <div class="testimonial-location">Vénissieux</div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Contrôles -->
+                    <div class="testimonial-controls">
+                        <button type="button" class="testimonial-arrow prev" aria-label="Avis précédent">
+                            <svg class="icon"><use href="#i-chevron-left"/></svg>
+                        </button>
+                        <div class="testimonial-dots" role="tablist" aria-label="Choisir un avis">
+                            <button type="button" class="testimonial-dot active" aria-label="Avis 1"></button>
+                            <button type="button" class="testimonial-dot" aria-label="Avis 2"></button>
+                            <button type="button" class="testimonial-dot" aria-label="Avis 3"></button>
+                            <button type="button" class="testimonial-dot" aria-label="Avis 4"></button>
+                        </div>
+                        <button type="button" class="testimonial-arrow next" aria-label="Avis suivant">
+                            <svg class="icon"><use href="#i-chevron-right"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             ZONE D'INTERVENTION (SEO local)
+             À PERSONNALISER : villes et quartiers desservis.
+             ============================================================ -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><svg class="icon"><use href="#i-pin"/></svg> Zone d'intervention</span>
+                    <h2 class="section-title">Nous intervenons à Lyon et alentours</h2>
+                    <p class="section-subtitle">
+                        Déplacement gratuit dans toute l'agglomération lyonnaise.
+                    </p>
+                </div>
+
+                <div class="coverage-grid">
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Lyon centre</span>
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Villeurbanne</span>
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Vénissieux</span>
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Bron</span>
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Caluire</span>
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Oullins</span>
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Tassin</span>
+                    <span class="coverage-item"><svg class="icon"><use href="#i-pin"/></svg> Écully</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             CTA FINAL — DEVIS
+             ============================================================ -->
+        <section class="section section-gray">
+            <div class="container" style="text-align: center;">
+                <h2 class="section-title">Un projet ? Recevez votre devis gratuit</h2>
+                <p class="section-subtitle" style="margin-bottom: var(--spacing-xl);">
+                    Réponse sous 24h ouvrées. Sans engagement.
+                </p>
+                <a href="devis.html" class="btn btn-primary btn-lg">Demander un devis gratuit</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================
+         BARRE D'APPEL MOBILE (visible < 768px)
+         ============================================================ -->
+    <div class="mobile-call-bar">
+        <a href="tel:+33478123456" class="btn btn-secondary">
+            <svg class="icon"><use href="#i-phone"/></svg> Appeler
+        </a>
+        <a href="devis.html" class="btn btn-primary">
+            <svg class="icon"><use href="#i-mail"/></svg> Devis gratuit
+        </a>
+    </div>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-icon"><svg class="icon"><use href="#i-wrench"/></svg></span>
+                        Dubois & Fils
+                    </a>
+                    <p class="footer-description">
+                        Entreprise familiale de plomberie depuis 2005. Artisans certifiés,
+                        devis transparents et garantie sur toutes nos interventions.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><svg class="icon"><use href="#i-thumb"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg class="icon"><use href="#i-camera"/></svg></a>
+                        <a href="#" aria-label="Google Business"><svg class="icon"><use href="#i-star"/></svg></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="urgences.html">Urgences</a></li>
+                        <li><a href="devis.html">Devis gratuit</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Dépannage</a></li>
+                        <li><a href="services.html">Chauffe-eau</a></li>
+                        <li><a href="services.html">Salle de bain</a></li>
+                        <li><a href="services.html">Canalisations</a></li>
+                    </ul>
+                </div>
+
+                <!-- À PERSONNALISER : coordonnées -->
+                <div>
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <span class="footer-contact-icon"><svg class="icon"><use href="#i-phone"/></svg></span>
+                            <a href="tel:+33478123456">04 78 12 34 56</a>
+                        </li>
+                        <li>
+                            <span class="footer-contact-icon"><svg class="icon"><use href="#i-mail"/></svg></span>
+                            <a href="mailto:contact@exemple-plombier.fr">contact@exemple-plombier.fr</a>
+                        </li>
+                        <li>
+                            <span class="footer-contact-icon"><svg class="icon"><use href="#i-pin"/></svg></span>
+                            <span>12 rue de la République<br>69002 Lyon</span>
+                        </li>
+                        <li>
+                            <span class="footer-contact-icon"><svg class="icon"><use href="#i-clock"/></svg></span>
+                            <span>24h/24 — 7j/7</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © <span data-current-year>2026</span> Plomberie Dubois & Fils —
+                    Tous droits réservés.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="js/main.js"></script>
+</body>
+</html>

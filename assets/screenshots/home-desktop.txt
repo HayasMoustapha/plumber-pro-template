@@ -1,0 +1,3 @@
+PLACEHOLDER : capture d'écran a generer (voir README.md, section Captures d'ecran).
+Page : home-desktop.png
+Methode : Chrome -> F12 -> Ctrl+Shift+P -> "Capture full size screenshot"
